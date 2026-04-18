@@ -4,12 +4,6 @@ A clean and simple Android flashcard quiz app built with Kotlin to help you stud
 
 ---
 
-## 📱 Screenshots
-
-> Add your screenshots here after running the app on a device or emulator.
-
----
-
 ## ✨ Features
 
 - 📖 **Quiz Mode** — Flip through flashcards one at a time with a clean card-based interface
