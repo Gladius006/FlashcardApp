@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FlashcardApp</string>
+    <string name="show_answer">Show Answer</string>
+    <string name="hide_answer">Hide Answer</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="add_card">Add Card</string>
+    <string name="edit_card">Edit Card</string>
+    <string name="save_card">Save Card</string>
+    <string name="update_card">Update Card</string>
+</resources>

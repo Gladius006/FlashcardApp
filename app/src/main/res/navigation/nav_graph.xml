@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment"
+        android:name="com.example.flashcardapp.ui.home.HomeFragment"
+        android:label="Flashcard Quiz">
+        <action android:id="@+id/action_homeFragment_to_addEditFragment"
+            app:destination="@id/addEditFragment" />
+        <action android:id="@+id/action_homeFragment_to_manageFragment"
+            app:destination="@id/manageFragment" />
+    </fragment>
+
+    <fragment android:id="@+id/manageFragment"
+        android:name="com.example.flashcardapp.ui.home.ManageFragment"
+        android:label="Manage Cards">
+        <action android:id="@+id/action_manageFragment_to_addEditFragment"
+            app:destination="@id/addEditFragment" />
+    </fragment>
+
+    <fragment android:id="@+id/addEditFragment"
+        android:name="com.example.flashcardapp.ui.add_edit.AddEditFragment"
+        android:label="Add Card" />
+
+</navigation>
